@@ -32,6 +32,10 @@ PLACA_MASTER_BLA_BLA
 
 Un problema que se me presentó es que historicamente este teclado, como el ergodox utilizan extensores de puertos MCP23018, pero al comprarlos me equivoqué y compré MCP23017, que en principio deberían de funcionar, pero como no tenía la certeza decidí crear la placa `slave` de forma que pudiera cambiar de extensor de puertos sin tener que volver a soldar todo. (Sin tener el teclado terminado considero que este razonamiento fué erroneo y que en caso de querer cambiar de `mcp` debería de haber creado una placa nueva).
 
+Foto del primer diseño de la placa slave.
+
+Sin embargo, tras hacer terminar de soldar el lado `master` me di cuenta de que había demasiados cables, así que aprovechando que ya tenía el `mpc23018` decidí hacer una placa nueva sin los diodos, que ahora soldaría a directamente a los switches y que puentearía mediante cables.
+
 PLACA_SLAVE_BLA_BLA
 
 ### Aprendiendo de los errores
