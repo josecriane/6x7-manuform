@@ -8,6 +8,8 @@ Para el diseño del teclado se usó como base [Dactyl Manuform](https://github.c
 
 Para el firmware se usó [QMK](https://github.com/qmk/qmk_firmware)
 
+Además como documentación extra se utilizó el repositorio de [Dactyl](https://github.com/adereth/dactyl-keyboard)
+
 ## Customizaciones del diseño 3d
 
 ## Construcción del teclado
